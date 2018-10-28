@@ -1,21 +1,24 @@
 body {
     font-family: 'Dancing Script', cursive;
-    background: url("../images/artdeco.jpg");  
+    background: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;  
 }
 
 .container {
-    margin-top: 40px;
+  /*  margin-top: 20px;  */
     padding-top: 20px; 
     padding-bottom: 20px; 
     background-color: black;
     width: 100%;
     max-width: 1000px;
     border: 1px solid;
-    border-color: #b99e03;
+    border-color: #9C854F;
     text-align: center;
-    color: #b99e03;
+    color: #9C854F;
     font-size: 25px;
-  /*  opacity: 0.5; */
+    opacity: 0.9;
 }
 
 .jumbotron{
@@ -24,50 +27,36 @@ body {
     padding-bottom: 30px;
     background-color: black;
     border: 1px solid;
-    border-color: #b99e03;
+    border-color: #9C854F;
 }
 
 #title {
-    font-size: 60px;
+    font-size: 50px;
 }
 
 #screen{
     background-color: black;
     border: 1px solid;
-    border-color: #b99e03;
+    border-color: #9C854F;
     margin-top: 20px;
 }
 
  .btn{
     border: 1px solid;
-    border-color: #b99e03;
-    color: #b99e03;
+    border-color: #9C854F;
+    color: #9C854F;
     font-size: 40px;
 }
 
 p{
-margin-top: 15px;
-    margin-bottom: 15px;
+margin-top: 20px;
+margin-bottom: 20px;
+font-size: 25px;
 }
 
-/*
-a:link {
-    color: #b99e03;
-    background-color: black;
+.question {
+    border: 1px solid;
+    border-color: #9C854F;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-
-a:hover { 
-    background-color: #b99e03;
-    color: black;
-}
-
-a:active { 
-    background-color: #b99e03;
-    color: black;
-}
-
-a:visited { 
-    color: #b99e03;
-}
-
-
