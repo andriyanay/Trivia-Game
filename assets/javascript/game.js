@@ -90,7 +90,7 @@ function clock() {
 		}
 
 		if (timer === 0) {
-			clearInterval(timer);
+			clearInterval(countdown);
 			timeOut();
 		}
 		
@@ -128,9 +128,6 @@ function nextQuestion() {
 };
 
 // Player ran out of time to answer
-// For some reason this function does not work properly for me. Instead of it going to the next question,
-// the game starts skipping questions, or even goes to the result and the Unanswered counter keeps increasing.
-// Restart button also doesn't work in this case 
 function timeOut() {
 	mainScreen = "<p> Too late! The correct answer is: " + correctAnswers[triviaCounter]; "</p>" ;
 	unanswered++;
